@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37CB84C52FEC6A89001A4E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CB84C42FEC6A89001A4E05 /* AppDelegate.swift */; };
+		37CB84C92FEC6A89001A4E05 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 37CB84C72FEC6A89001A4E05 /* Main.html */; };
+		37CB84CB2FEC6A89001A4E05 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37CB84CA2FEC6A89001A4E05 /* Icon.png */; };
+		37CB84CD2FEC6A89001A4E05 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 37CB84CC2FEC6A89001A4E05 /* Style.css */; };
+		37CB84CF2FEC6A89001A4E05 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 37CB84CE2FEC6A89001A4E05 /* Script.js */; };
+		37CB84D12FEC6A89001A4E05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CB84D02FEC6A89001A4E05 /* ViewController.swift */; };
+		37CB84D42FEC6A89001A4E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CB84D22FEC6A89001A4E05 /* Main.storyboard */; };
+		37CB84D62FEC6A8B001A4E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CB84D52FEC6A8B001A4E05 /* Assets.xcassets */; };
+		37CB84DD2FEC6A8B001A4E05 /* Zotero Connector Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 37CB84DC2FEC6A8B001A4E05 /* Zotero Connector Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37CB84E22FEC6A8B001A4E05 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CB84E12FEC6A8B001A4E05 /* SafariWebExtensionHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37CB84DE2FEC6A8B001A4E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37CB84B92FEC6A89001A4E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37CB84DB2FEC6A8B001A4E05;
+			remoteInfo = "Zotero Connector Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37CB84E92FEC6A8B001A4E05 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				37CB84DD2FEC6A8B001A4E05 /* Zotero Connector Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37CB84C12FEC6A89001A4E05 /* Zotero Connector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zotero Connector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CB84C42FEC6A89001A4E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37CB84C82FEC6A89001A4E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		37CB84CA2FEC6A89001A4E05 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		37CB84CC2FEC6A89001A4E05 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		37CB84CE2FEC6A89001A4E05 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		37CB84D02FEC6A89001A4E05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37CB84D32FEC6A89001A4E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37CB84D52FEC6A8B001A4E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37CB84D72FEC6A8B001A4E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CB84DC2FEC6A8B001A4E05 /* Zotero Connector Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Zotero Connector Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CB84E12FEC6A8B001A4E05 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		37CB84E32FEC6A8B001A4E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37CB84BE2FEC6A89001A4E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37CB84D92FEC6A8B001A4E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37CB84B82FEC6A89001A4E05 = {
+			isa = PBXGroup;
+			children = (
+				37CB84C32FEC6A89001A4E05 /* Zotero Connector */,
+				37CB84E02FEC6A8B001A4E05 /* Zotero Connector Extension */,
+				37CB84C22FEC6A89001A4E05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37CB84C22FEC6A89001A4E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37CB84C12FEC6A89001A4E05 /* Zotero Connector.app */,
+				37CB84DC2FEC6A8B001A4E05 /* Zotero Connector Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37CB84C32FEC6A89001A4E05 /* Zotero Connector */ = {
+			isa = PBXGroup;
+			children = (
+				37CB84C42FEC6A89001A4E05 /* AppDelegate.swift */,
+				37CB84D02FEC6A89001A4E05 /* ViewController.swift */,
+				37CB84D22FEC6A89001A4E05 /* Main.storyboard */,
+				37CB84D52FEC6A8B001A4E05 /* Assets.xcassets */,
+				37CB84D72FEC6A8B001A4E05 /* Info.plist */,
+				37CB84C62FEC6A89001A4E05 /* Resources */,
+			);
+			path = "Zotero Connector";
+			sourceTree = "<group>";
+		};
+		37CB84C62FEC6A89001A4E05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37CB84C72FEC6A89001A4E05 /* Main.html */,
+				37CB84CA2FEC6A89001A4E05 /* Icon.png */,
+				37CB84CC2FEC6A89001A4E05 /* Style.css */,
+				37CB84CE2FEC6A89001A4E05 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37CB84E02FEC6A8B001A4E05 /* Zotero Connector Extension */ = {
+			isa = PBXGroup;
+			children = (
+				37CB84E12FEC6A8B001A4E05 /* SafariWebExtensionHandler.swift */,
+				37CB84E32FEC6A8B001A4E05 /* Info.plist */,
+			);
+			path = "Zotero Connector Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37CB84C02FEC6A89001A4E05 /* Zotero Connector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37CB84EA2FEC6A8B001A4E05 /* Build configuration list for PBXNativeTarget "Zotero Connector" */;
+			buildPhases = (
+				37CB84BD2FEC6A89001A4E05 /* Sources */,
+				37CB84BE2FEC6A89001A4E05 /* Frameworks */,
+				37CB84BF2FEC6A89001A4E05 /* Resources */,
+				37CB84E92FEC6A8B001A4E05 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37CB84DF2FEC6A8B001A4E05 /* PBXTargetDependency */,
+			);
+			name = "Zotero Connector";
+			packageProductDependencies = (
+			);
+			productName = "Zotero Connector";
+			productReference = 37CB84C12FEC6A89001A4E05 /* Zotero Connector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37CB84DB2FEC6A8B001A4E05 /* Zotero Connector Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37CB84E62FEC6A8B001A4E05 /* Build configuration list for PBXNativeTarget "Zotero Connector Extension" */;
+			buildPhases = (
+				37CB84D82FEC6A8B001A4E05 /* Sources */,
+				37CB84D92FEC6A8B001A4E05 /* Frameworks */,
+				37CB84DA2FEC6A8B001A4E05 /* Resources */,
+				37CB85FA2FEC6A8C001A4E05 /* Copy Connector build */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zotero Connector Extension";
+			packageProductDependencies = (
+			);
+			productName = "Zotero Connector Extension";
+			productReference = 37CB84DC2FEC6A8B001A4E05 /* Zotero Connector Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37CB84B92FEC6A89001A4E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					37CB84C02FEC6A89001A4E05 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					37CB84DB2FEC6A8B001A4E05 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 37CB84BC2FEC6A89001A4E05 /* Build configuration list for PBXProject "Zotero Connector" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37CB84B82FEC6A89001A4E05;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 37CB84C22FEC6A89001A4E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37CB84C02FEC6A89001A4E05 /* Zotero Connector */,
+				37CB84DB2FEC6A8B001A4E05 /* Zotero Connector Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37CB84BF2FEC6A89001A4E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CB84CB2FEC6A89001A4E05 /* Icon.png in Resources */,
+				37CB84D42FEC6A89001A4E05 /* Main.storyboard in Resources */,
+				37CB84CF2FEC6A89001A4E05 /* Script.js in Resources */,
+				37CB84C92FEC6A89001A4E05 /* Main.html in Resources */,
+				37CB84D62FEC6A8B001A4E05 /* Assets.xcassets in Resources */,
+				37CB84CD2FEC6A89001A4E05 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37CB84DA2FEC6A8B001A4E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37CB85FA2FEC6A8C001A4E05 /* Copy Connector build */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Connector build (build/safari)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nrsync -a --delete \"${PROJECT_DIR}/../zotero-connectors/build/safari/\" \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37CB84BD2FEC6A89001A4E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CB84D12FEC6A89001A4E05 /* ViewController.swift in Sources */,
+				37CB84C52FEC6A89001A4E05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37CB84D82FEC6A8B001A4E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CB84E22FEC6A8B001A4E05 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37CB84DF2FEC6A8B001A4E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37CB84DB2FEC6A8B001A4E05 /* Zotero Connector Extension */;
+			targetProxy = 37CB84DE2FEC6A8B001A4E05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37CB84C72FEC6A89001A4E05 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37CB84C82FEC6A89001A4E05 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		37CB84D22FEC6A89001A4E05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37CB84D32FEC6A89001A4E05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37CB84E42FEC6A8B001A4E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37CB84E52FEC6A8B001A4E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		37CB84E72FEC6A8B001A4E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zotero Connector Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Zotero Connector Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.zotero.SafariWebExtensionApp.SafariExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		37CB84E82FEC6A8B001A4E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zotero Connector Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Zotero Connector Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.zotero.SafariWebExtensionApp.SafariExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		37CB84EB2FEC6A8B001A4E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zotero Connector/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Zotero Connector";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.zotero.SafariWebExtensionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		37CB84EC2FEC6A8B001A4E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zotero Connector/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Zotero Connector";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.zotero.SafariWebExtensionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37CB84BC2FEC6A89001A4E05 /* Build configuration list for PBXProject "Zotero Connector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CB84E42FEC6A8B001A4E05 /* Debug */,
+				37CB84E52FEC6A8B001A4E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37CB84E62FEC6A8B001A4E05 /* Build configuration list for PBXNativeTarget "Zotero Connector Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CB84E72FEC6A8B001A4E05 /* Debug */,
+				37CB84E82FEC6A8B001A4E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37CB84EA2FEC6A8B001A4E05 /* Build configuration list for PBXNativeTarget "Zotero Connector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CB84EB2FEC6A8B001A4E05 /* Debug */,
+				37CB84EC2FEC6A8B001A4E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37CB84B92FEC6A89001A4E05 /* Project object */;
+}
